@@ -42,7 +42,7 @@
   }
   
   .nav-header img {
-    width: 100px;
+    width: 150px;
     height: auto;
     border-radius: 0.45rem;
   }
@@ -79,7 +79,7 @@
 
 
   body {
-    background-image: url("./app\ images/recipe-5.jpg");
+    background-image: url("./app\ images/background.jpg");
     background-size: cover;
     font-family: var(--bodyFont);
     background-repeat: no-repeat;
@@ -141,13 +141,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--black);
-    color: var(--white);
+    color: rgb(134, 131, 131);
   }
   .page-footer p {
     margin-bottom: 0;
   }
-  .footer-logo,
-  .page-footer a {
-    color: var(--primary-500);
-  }
+  
