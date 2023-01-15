@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Recipes</title>
+     <!-- title icon -->
+     <link rel="shortcut icon" href="./app images/unnamed.png" type="image/x-icon" />
+     <!-- font-awesome -->
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+     />
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+     <!-- dashboard css -->
+     <link rel="stylesheet" href="dashboard.css">
+     <!-- single-recipe css -->
+     <link rel="stylesheet" href="single-recipe.css">
+     <!-- create-recipe css -->
+     <link rel="stylesheet" href="create-recipe.css">
+     <script src="http://kit.fontawesome.com/d7be71b281.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- side nav -->
+   <div class="wrapper">
+    <div class="sidebar">
+        <img src="./app images/pfp.png" alt="Profile Photo">
+        <h4>Name</h4>
+        <ul>
+            <li><a href="dashboard.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-hat-chef"></i>My Recipes</a></li>
+            <li><a href="#"><i class="fa-solid fa-heart"></i>Liked Recipes</a></li>
+            <li><a href="create-recipe.html"><i class="fa-solid fa-plus"></i>Create Recipe</a></li>
+            <li><a href="drinks.html"><i class="fa-solid fa-wine-glass"></i>Drinks</a></li>
+            <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+      <!--end of nav  -->
+      <!-- main -->
+        <div class="main-content">
+            <div class="header">
+                <div class="heading">Recipes</div>
+                
+                <div class="logo"><img src="./app images/logo 3.png" alt="Yummy"></div>
+            </div>
+            <section class="recipe-hero">
+                <input type="file"  placeholder="Upload image here" required class="image">
+                <article class="recipe-info">
+                  <input type="text" placeholder="Recipe name">
+                  <textarea  cols="150" rows="10" placeholder="Description"></textarea>
+                  <div class="recipe-icons">
+                    <article>
+                      <i class="fas fa-clock"></i>
+                      <h5>prep time</h5>
+                      <input type="time">
+                    </article>
+                    <article>
+                      <i class="far fa-clock"></i>
+                      <h5>cook time</h5>
+                      <input type="time">
+                    </article>
+                    <article>
+                      <i class="fas fa-user-friends"></i>
+                      <h5>serving</h5>
+                      <input type='number'>
+                    </article>
+                  </div>
+                </article>
+              </section>
+              <!-- content -->
+        <section class="recipe-content">
+            <article>
+              <h4>Instructions</h4>
+              <textarea cols="100" rows="15"></textarea>
+            <article class="second-column">
+              <div>
+                <h4>Ingredients</h4>
+                <textarea  cols="70" rows="10"></textarea>
+              </div>
+              <div>
+                <h4>Tools</h4>
+                <textarea  cols="70" rows="10"></textarea>
+              </div>
+            </article>
+          </section>
+        </div>
+</body>
+</html>
